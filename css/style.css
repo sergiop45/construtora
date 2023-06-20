@@ -421,6 +421,7 @@ button {
     width: 63%;
     float: right;
     margin-top: 80px;
+    padding-bottom: 1em;
 }
 
 .about_text {
@@ -437,6 +438,10 @@ button {
     font-size: 16px;
     color: #ffffff;
     margin-left: 0px;
+}
+
+.about_bt {
+    min-width: 300px;
 }
 
 .about_bt a {
@@ -533,6 +538,8 @@ button {
     width: 100%;
     float: left;
 }
+
+
 
 .choose_bt a {
     width: 18%;
@@ -681,6 +688,7 @@ button {
 .contact_bg {
     width: 82%;
     float: right;
+    padding-bottom: 1em;
 }
 
 .request_text {
@@ -957,3 +965,41 @@ a {
     text-decoration: none;
     outline: none !important;
 }
+
+.banner-img {
+    height: 100%;
+}
+
+.imagem-banner {
+    min-height: 380px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    height: 100%;
+}
+
+.img-contact {
+    width: 100%;
+    min-width: 800px;
+    margin-top: 2px;
+}
+
+@media (max-width: 900px) {
+    .img-contact {
+        min-width: 300px;
+    }
+    .send_bt {
+        min-width: 300px;
+        margin: 0 auto;
+    }
+    .choose_bt {
+        min-width: 100%;
+    }
+    .choose_bt a {
+        min-width: 100%;
+    }
+
+    .text-logo {
+        visibility: hidden;
+    }
+}
+
